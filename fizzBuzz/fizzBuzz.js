@@ -2,7 +2,7 @@ let fizzBuzz = function (){
 
  let arr = []
 
- for (let num=1; arr.length<100; num++) //are the conditional operators of for/if/else statements functions?
+ for (let num=1; arr.length<100; num++) //are the conditional operators of for/if/else statements functions? nope
 {     
  if (num % 3 === 0 && num % 5 === 0) 
     { 
@@ -24,5 +24,5 @@ let fizzBuzz = function (){
 return arr  //dont i also have to return the value of fizzBuzz function
 }
 
-console.log(fizzBuzz)
+console.log(fizzBuzz())
 
