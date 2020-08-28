@@ -1,4 +1,4 @@
-require("dotenv").config();
+crequire("dotenv").config();
 const { MongoClient } = require("mongodb");
 let client; //or leave it undefined by writing let client
 let usersCollection; //same thing-alt is undefined
